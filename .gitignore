@@ -1,6 +1,7 @@
 # USE PNPM!!!
 package-lock.json
 yarn.lock
+bun.lockb
 
 .vscode
 
