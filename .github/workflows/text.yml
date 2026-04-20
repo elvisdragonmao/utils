@@ -21,7 +21,7 @@ jobs:
     name: 📰 Prettier 格式化檢查
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:

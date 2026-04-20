@@ -5,11 +5,11 @@
 		"astro": "astro",
 		"build": "astro build",
 		"dev": "astro dev",
-		"format": "prettier --write .",
-		"preinstall": "npx only-allow pnpm",
 		"preview": "astro preview",
-		"test": "astro check"
+		"test": "astro check",
+		"preinstall": "npx only-allow pnpm",
+		"prepare": "sh -c 'command -v git >/dev/null 2>&1 && [ -d .git ] && git config core.hooksPath .githooks || true'",
+		"format": "prettier --write ."
 	},
-	"devDependencies": {},
-	"packageManager": "pnpm@10.17.1"
+	"devDependencies": {}
 }
