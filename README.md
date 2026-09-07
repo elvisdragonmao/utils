@@ -96,8 +96,6 @@ git push
 git config --show-origin --get core.hooksPath
 ```
 
-
-
 ## 授權條款
 
 本專案採用[你他媽的想幹嘛就幹嘛公眾授權條款](https://www.wtfpl.net/)授權，詳情請參閱 [LICENSE](./LICENSE) 檔案。
